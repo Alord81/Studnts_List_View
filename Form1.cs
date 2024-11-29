@@ -96,7 +96,7 @@ namespace Add_User_To_List_Project
 
             if (string.IsNullOrEmpty(tbEmail.Text))
             {
-                ErrorMessage += "Email hould have a value!" + Environment.NewLine;
+                ErrorMessage += "Email should have a value!" + Environment.NewLine;
                 ThereAreError = true;
             }
 
